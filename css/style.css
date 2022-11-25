@@ -219,6 +219,14 @@ header nav ul li a {
     height: 200px;
 }
 
+.SubtituloProductos{
+    padding: 40px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: #7D84B2;
+
+}
 
 /*!------------- FOOTER -----------------*/
 
