@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +11,42 @@
 
 <body>
     <header>
-        <h1>Skorial y asociados</h1>
+        <a class="loguito" href="../index.html">
+            <h1>Skorial y asociados</h1>
+        </a>
         <nav>
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./quienessomos.html">Quiénes somos</a></li>
-                <li><a href="./productos.html">Nuestros productos</a></li>
-                <li><a href="./clientes.html">Nuestros clientes</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./clientes.html">Clientes</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="#pie">Pie de página</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="IngresoDeDatos">
+        <div class="SepIzquierda">
+            <div>
+                <label for="NombreContacto"> Nombre y apellido:</label>
+                <input type="text" name="NombreContacto" placeholder="Tu Nombre">
+            </div>
+            <div>
+                <label for="FonoContacto"> Tu teléfono:</label>
+                <input type="number" name="FonoContacto" placeholder="Sin puntos ni guiones">
+            </div>
+
+            <div>
+                <label for="MailContacto"> Tu Email:</label>
+                <input type="email" name="MailContacto" placeholder="@...">
+            </div>
+        </div>
+
+        <div class="SepDerecha">
+            <label for="ConsultaContacto"> Tu consulta:</label>
+            <input type="text" name="ConsultaContacto" placeholder="Contanos.">
+        </div>
+    </section>
+
 
     <footer class="footer" id="pie">
         <!-- ENLACES ABSOLUTOS -->
@@ -36,4 +61,5 @@
         </a>
     </footer>
 </body>
+
 </html>
