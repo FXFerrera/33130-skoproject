@@ -1,0 +1,75 @@
+@media screen and (max-width:680px){
+    body header nav ul li a{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:600px){
+    .hero h2{
+        transform: scale(0.75);
+        font-size: 20px;
+    }
+
+    .hero a{
+        transform: scale(0.75);
+    }
+}
+
+@media screen and (max-width:590px){
+    .hero h2{
+        transform: scale(0.5);
+    }
+
+    .hero a{
+        transform: scale(0.5);
+    }
+}
+
+@media screen and (max-width:460px){
+
+    body header nav ul li a{
+        font-size: small;
+    }
+    .hero h2{
+        font-size: small;
+    }
+
+    .medio .somosBack p{
+        font-size:20px;
+    }
+
+    .medio h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .IngresoDeDatos{
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .IngresoDeDatos div{
+        margin:10px;
+    }
+}
+
+@media screen and (max-width:410px){
+    h1{
+        font-size: 40px;
+    }
+    
+    body header nav ul li a{
+        font-size:x-small;
+    }
+}
+
+@media screen and (max-width:350px){
+    body header nav ul li{
+        margin: 0px;
+        padding: 0px;
+    }
+    body header nav ul li a{
+        font-size: xx-small;
+    }
+}

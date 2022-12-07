@@ -1,0 +1,247 @@
+    .hero {
+        margin-top: 0px;
+        width: 100%;
+        height: calc(100vh - 145px);
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(../img/hero-image.jpeg);
+        background-attachment: scroll;
+        background-repeat: round;
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-style: italic;
+            padding: 20px;
+            border: 5px solid #E05263;
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+    }
+
+    .botonHero {
+        transition: 1s;
+
+        &:hover {
+            padding: 30px;
+        }
+    }
+
+    .tituloProductos {
+        text-align: center;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        color: aliceblue;
+        padding: 30px;
+        background-color: #7D84B2;
+    }
+
+    .productos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        .tarjetas {
+            margin: 25px;
+            width: 220px;
+            height: 250px;
+            border: 3px solid black;
+            text-align: center;
+            transition: 1s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+
+            h3 {
+                margin-top: 5px;
+                margin-bottom: 25px;
+            }
+
+            a {
+                text-decoration: none;
+                background-color: black;
+                color: white;
+                margin: 25px 10px 10px 10px;
+                padding: 10px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;
+                font-weight: semibold;
+            }
+        }
+    }
+
+    //! QUIENES SOMOS
+
+    .medio {
+        h2 {
+            padding: 40px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            background-color: #e96f7d;
+        }
+
+        .somosBack {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://conceptodefinicion.de/wp-content/uploads/2021/01/tecnologia-.jpg);
+            background-size: cover;
+
+            p {
+                font-family: Pacifico;
+                font-size: 30px;
+                font-weight: 80;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+        }
+
+        .flexEquipo {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+
+            .tarjetaEquipo {
+                // margin: 30px 0px 30px 0px ;
+                border: 2px solid black;
+                border-radius: 10%;
+                text-align: center;
+                width: 250px;
+                height: 350px;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+
+    //! CARRUSEL
+
+    .Carrusel {
+        margin: auto;
+        width: 500px;
+        height: 500px;
+    }
+
+    //! PRODUCTOS
+
+    .SubtituloProductos{
+        padding: 40px;
+        text-align:center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        background-color: #7D84B2;    
+    }
+
+    .GRIDD {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-auto-rows: 250px;
+        gap: 20px;
+        grid-template-areas:
+            "mic1 auris1 auris1 mic2"
+            "laptop laptop laptop laptop"
+            "laptop laptop laptop laptop"
+            "prod1 prod2 prod3 prod4";
+
+        .item1 {
+            grid-area: mic1;
+            transition: 1s;
+        }
+
+        .item2 {
+            grid-area: auris1;
+        }
+
+        .item3 {
+            grid-area: mic2;
+        }
+
+        .item4 {
+            grid-area: laptop;
+        }
+
+        .item5 {
+            grid-area: prod1;
+        }
+
+        .item6 {
+            grid-area: prod2;
+        }
+
+        .item7 {
+            grid-area: prod3;
+        }
+
+        .item8 {
+            grid-area: prod4;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .item1,
+        .item2,
+        .item3,
+        .item4,
+        .item5,
+        .item6,
+        .item7,
+        .item8 {
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    //! CONTACTO
+
+    .IngresoDeDatos{
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;    
+        div{
+            margin: 20px;
+        }
+
+        .SepIzquierda{
+
+        }
+        .SepDerecha{
+            input{
+                width: 200px;
+                height: 200px;            
+            }
+        }
+    }
+
