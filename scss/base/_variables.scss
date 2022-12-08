@@ -1,0 +1,10 @@
+$color-prin: #F3FFB9;
+$color-sec: #7D84B2;
+$color-hero: #e96f7d; 
+
+@mixin ShortFlex ($flex, $flow, $justify, $align) {
+    display: $flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+    align-items: $align;
+}

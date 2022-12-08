@@ -2,10 +2,7 @@
         margin-top: 0px;
         width: 100%;
         height: calc(100vh - 145px);
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-around;
-        align-items: center;
+        @include ShortFlex(flex, column wrap, space-around, center);
         background-image: url(../img/hero-image.jpeg);
         background-attachment: scroll;
         background-repeat: round;
@@ -15,7 +12,7 @@
             font-weight: 600;
             font-style: italic;
             padding: 20px;
-            border: 5px solid #E05263;
+            border: 5px solid $color-hero;
             background-color: white;
         }
 
@@ -44,15 +41,11 @@
         font-size: 30px;
         color: aliceblue;
         padding: 30px;
-        background-color: #7D84B2;
+        background-color: $color-sec;
     }
 
     .productos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+        @include ShortFlex(flex, row wrap, space-around, center);
 
         .tarjetas {
             margin: 25px;
@@ -97,15 +90,13 @@
             text-align: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 30px;
-            background-color: #e96f7d;
+            background-color: $color-hero;
         }
 
         .somosBack {
             width: 100%;
             height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include ShortFlex(flex, row nowrap, center, center);
             background-image: url(https://conceptodefinicion.de/wp-content/uploads/2021/01/tecnologia-.jpg);
             background-size: cover;
 
@@ -120,9 +111,7 @@
         }
 
         .flexEquipo {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
+            @include ShortFlex(flex, row wrap, space-around, center)
 
             .tarjetaEquipo {
                 // margin: 30px 0px 30px 0px ;
@@ -131,10 +120,7 @@
                 text-align: center;
                 width: 250px;
                 height: 350px;
-                display: flex;
-                flex-flow: column nowrap;
-                justify-content: center;
-                align-items: center;
+                @include ShortFlex(flex, column nowrap, center, center)
             }
         }
     }
@@ -155,7 +141,7 @@
         text-align:center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 30px;
-        background-color: #7D84B2;    
+        background-color: $color-sec;    
     }
 
     .GRIDD {
@@ -226,10 +212,7 @@
     //! CONTACTO
 
     .IngresoDeDatos{
-        display:flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        align-items: center;    
+        @include ShortFlex(flex, row nowrap, space-around, center);
         div{
             margin: 20px;
         }
