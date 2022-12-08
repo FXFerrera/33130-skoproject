@@ -5,6 +5,7 @@
   box-sizing: border-box; }
 
 header {
+  width: 100%;
   text-align: center;
   background-color: #F3FFB9; }
   header .loguito {
