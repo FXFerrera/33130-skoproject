@@ -145,9 +145,14 @@ header {
     align-items: center; }
 
 .Carrusel {
-  margin: auto;
-  width: 500px;
-  height: 500px; }
+  width: 100%;
+  height: 100%; }
+
+.Carrusel .CarruselFlex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; }
 
 .SubtituloProductos {
   padding: 40px;
