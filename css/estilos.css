@@ -32,7 +32,11 @@ header {
         font-size: x-large;
         margin-left: 15px;
         padding: 0px 10px 0px 10px;
-        background-color: rgba(0, 0, 0, 0.226); }
+        background-color: rgba(0, 0, 0, 0.226);
+        transition: 0.5s; }
+        header nav ul li a:hover {
+          color: #7D84B2;
+          filter: brigh(1.5); }
 
 .hero {
   margin-top: 0px;
@@ -205,7 +209,7 @@ header {
     .GRIDD .item6:hover,
     .GRIDD .item7:hover,
     .GRIDD .item8:hover {
-      transform: scale(1.1); }
+      transform: scale(1.05); }
 
 .IngresoDeDatos {
   display: flex;

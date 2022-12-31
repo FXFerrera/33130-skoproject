@@ -30,9 +30,13 @@ header {
                     margin-left: 15px;
                     padding: 0px 10px 0px 10px;
                     background-color: rgba(0, 0, 0, 0.226);
+                    transition: 0.5s;
+                    &:hover{
+                        color: #7D84B2;
+                        filter: brigh(1.5);
+                    }    
+                    }
                 }
             }
         }
     }
-
-}
