@@ -25,6 +25,14 @@
     }
 }
 
+@media screen and (max-width:500px){
+    .IngresoDeDatos{
+        div{
+            text-align: center;
+        }
+    }
+}
+
 @media screen and (max-width:460px){
 
     body header nav ul li a{
