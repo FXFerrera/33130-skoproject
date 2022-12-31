@@ -213,7 +213,8 @@ header {
   justify-content: space-around;
   align-items: center; }
   .IngresoDeDatos div {
-    margin: 20px; }
+    margin: 20px;
+    text-align: end; }
   .IngresoDeDatos .SepDerecha input {
     width: 200px;
     height: 200px; }

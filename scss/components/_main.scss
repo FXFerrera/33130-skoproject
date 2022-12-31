@@ -217,6 +217,7 @@
         @include ShortFlex(flex, row nowrap, space-around, center);
         div{
             margin: 20px;
+            text-align: end;
         }
 
         .SepDerecha{
